@@ -1,0 +1,13 @@
+body {
+  margin: 0;
+  font-family: 'Helvetica';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  text-align: center;
+}
+
+h1{
+  font-weight: 700;
+  color: darkblue;
+}

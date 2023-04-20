@@ -13,6 +13,9 @@ import Props from './components/Props';
 import DestructingProps from './components/DestructingProps';
 import ChildrenProps from './components/ChildrenProps';
 import FunctionsProps from './components/FunctionsProps';
+import MudarPessoa from './components/MudarPessoa';
+import Pessoa from './components/Pessoa';
+import UserDetails from './components/UserDetails'
 
 function App() {
   const nome = "Caio Henrique"
@@ -23,11 +26,21 @@ function App() {
   const minhaFuncao = () => {
     console.log("Bora tomar uma")
   }
+
   /* function funcaoNova(){
     return console.log("Bora tomar uma")
   }*/
+/* A alteração e a exibição serão feitas por meio de components */
+  const [pessoas, setPessoa] = useState("")
 
-  const [pessoas, setPessoa] = useState("Caio")
+  const handleShowPerson = (pessoa) => {
+    setPessoa(pessoa)
+  } 
+
+  const [pessoasChallenge] = useState([{nome: "Caio", idade: 18, profissao: "Programador"},
+  {nome: "Marta", idade: 14, profissao: "Estudante"},
+  {nome: "Tiago", idade: 67, profissao: "Pedreiro"}])
+
 
   return (
     <div className="App">
@@ -52,6 +65,18 @@ function App() {
         <div>
               {/* Funções como props */}
               <FunctionsProps funcao={minhaFuncao}/>
+        </div>
+        <div>
+          <Pessoa nome={pessoas}/>
+          <MudarPessoa funcao={handleShowPerson}/>
+        </div>
+        <div>
+          {/* Loop de components */}
+          {pessoasChallenge.map((item, i) => (
+              <UserDetails key={i} nome={item.nome} idade={item.idade} profissao={item.profissao}/>
+          ))}
+          
+          
         </div>
       </header>
     </div>
