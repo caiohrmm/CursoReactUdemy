@@ -1,0 +1,11 @@
+.nomeCarro { 
+    color: white;
+    background-color: lightcoral;
+    border-bottom: 3px solid green;
+}
+
+.anoCarro{
+    color: chartreuse;
+    background-color: black;
+    border-bottom: 3px solid yellow; 
+}
