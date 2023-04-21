@@ -1,5 +1,5 @@
-import logo from './logo.svg';
 import './App.css';
+import TestandoCSS from './components/TestandoCSS';
 
 function App() {
   const nome = "Caio"
@@ -17,8 +17,9 @@ function App() {
       <p className={nome == "Caio" ? ("classe1") : ("classe2")}>
         Isso são classes dinâmicas
       </p>
+      <TestandoCSS/>
     </div>
-  );
+  )
 }
 
 export default App;
