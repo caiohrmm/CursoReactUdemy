@@ -1,0 +1,11 @@
+h1#bemvindo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+    margin-top: 40px;
+    font-size: 28px;
+    text-align: center;
+    border-bottom : 1px solid blue;
+}

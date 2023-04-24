@@ -1,0 +1,21 @@
+html{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+
+
+body {
+  margin: 0;
+  text-align: center;
+}
+
+label{
+  display: block;
+  padding: 20px;
+}
+input, select, textarea {
+  padding: 5px 10px;
+  display: block;
+  margin: 0 auto;
+}
