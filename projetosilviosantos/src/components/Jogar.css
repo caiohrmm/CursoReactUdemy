@@ -1,11 +1,33 @@
-h1#bemvindo{
+#setar { 
+    height: 150px;
     display: flex;
-    align-items: center;
-    justify-content: center;
-    color: white;
-    font-weight: bold;
-    margin-top: 40px;
-    font-size: 28px;
     text-align: center;
-    border-bottom : 1px solid blue;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+h1#nometitulo{
+    font-size: 22px;
+    font-family: 'Helvetica';
+    font-weight: bold;
+}
+
+button#meubotao {
+    border: 1px solid white;
+    padding: 5px 10px;
+    border-radius: 7px;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 10px;
+    color: black;
+    background-color: cadetblue;
+}
+
+button#meubotao:hover{
+    background-color: rgb(193, 226, 237);
+    transition: .8s;
+    color: darkslateblue;
 }
