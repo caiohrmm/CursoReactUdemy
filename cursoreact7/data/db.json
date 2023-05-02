@@ -1,0 +1,89 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Camisa",
+      "price": 59.9
+    },
+    {
+      "id": 2,
+      "name": "Calça vermelha",
+      "price": 90
+    },
+    {
+      "id": 3,
+      "name": "Boné aba reta",
+      "price": 29.9
+    },
+    {
+      "name": "Joia",
+      "price": "140",
+      "id": 6
+    },
+    {
+      "name": "calculadora",
+      "price": "20",
+      "id": 8
+    },
+    {
+      "name": "asf",
+      "price": "13",
+      "id": 10
+    },
+    {
+      "name": "Caio",
+      "price": "14",
+      "id": 17
+    },
+    {
+      "name": "Caio",
+      "price": "14",
+      "id": 18
+    },
+    {
+      "name": "Vassoura",
+      "price": "30",
+      "id": 19
+    },
+    {
+      "name": "VACA",
+      "price": "1900",
+      "id": 20
+    },
+    {
+      "name": "var",
+      "price": "12",
+      "id": 21
+    },
+    {
+      "name": "a",
+      "price": "1234",
+      "id": 22
+    },
+    {
+      "name": "ad",
+      "price": "143",
+      "id": 23
+    },
+    {
+      "name": "ad",
+      "price": "143",
+      "id": 24
+    },
+    {
+      "name": "ad",
+      "price": "13",
+      "id": 25
+    },
+    {
+      "name": "ad",
+      "price": "13",
+      "id": 26
+    },
+    {
+      "name": "ad",
+      "price": "13",
+      "id": 27
+    }
+  ]
+}
